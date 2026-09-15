@@ -100,12 +100,12 @@ The vector module provides a decision-support workflow for the analysis of urban
 
 <p align="center">
   <img src="images/Part1V.png" width="48%">
-  <img src="images/Part2V.png" width="48%">
+  <img src="images/part2V.png" width="48%">
 </p>
 
 <p align="center">
   <img src="images/part3V.png" width="48%">
-  <img src="images/Part4V.png" width="48%">
+  <img src="images/part4V.png" width="48%">
 </p>
 
 ### Raster Module
