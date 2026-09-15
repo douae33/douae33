@@ -42,11 +42,11 @@ The platform supports spatial data management, multi-level territorial analysis,
 
 <p align="center">
   <img src="images/dashboard.png" width="48%">
-  <img src="images/carte.png" width="48%">
+  <img src="images/filtre.png" width="48%">
 </p>
 
 <p align="center">
-  <img src="images/filtre.png" width="48%">
+  <img src="images/carte.png" width="48%">
   <img src="images/tableau.png" width="48%">
 </p>
 
@@ -77,7 +77,7 @@ GeoAI workflow for detecting and mapping burned areas in Derdara Forest, Chefcha
 ### Project Preview
 
 <p align="center">
-  <img src="images/clasification-random-forest.png" width="48%">
+  <img src="images/classification-random-forest.png" width="48%">
   <img src="images/zonesbrules.png" width="48%">
 </p>
 
