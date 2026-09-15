@@ -1,4 +1,4 @@
-## Hi I am Douae AMZIL 👋
+## Hi I'm Douae AMZIL 👋
 
 I am a Geoinformation Engineering student with a background in Computer Engineering.
 
@@ -12,11 +12,11 @@ I have worked on projects involving:
 - 🧩 QGIS plugin development and workflow automation
 - 🗄️ Spatial databases with PostgreSQL/PostGIS
 
-🎯 Currently looking for a **6-month PFE internship starting in 2027**.
+Currently looking for a **6-month PFE internship starting in 2027**.
 
 📍 Morocco
 
-# 🚀 Featured Projects
+#  Featured Projects
 
 ## 🌍 Loss & Damage WebGIS Platform
 
