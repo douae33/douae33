@@ -16,9 +16,7 @@ Currently looking for a **6-month PFE internship starting in 2027**.
 
 📍 Morocco
 
----
-
-# 🚀 Featured Projects
+# Featured Projects
 
 ## 🌍 Loss & Damage WebGIS Platform
 
@@ -52,7 +50,6 @@ The platform supports spatial data management, multi-level territorial analysis,
   <img src="images/tableau.png" width="48%">
 </p>
 
----
 
 ## 🔥 GeoAI Burned Area Detection — Derdara Forest
 
@@ -80,11 +77,9 @@ GeoAI workflow for detecting and mapping burned areas in Derdara Forest, Chefcha
 ### Project Preview
 
 <p align="center">
-  <img src="images/clasification%20random%20forest.png" width="48%">
-  <img src="images/zones%20brûlés%20par%20dnbr.png" width="48%">
+  <img src="images/clasification-random-forest.png" width="48%">
+  <img src="images/zonesbrules.png" width="48%">
 </p>
-
----
 
 ## 🧩 QGIS Plugin — Urban Planning Decision Support & Remote Sensing
 
@@ -134,8 +129,6 @@ The raster module integrates remote-sensing functionalities based on Sentinel sa
 ### Technologies
 `Python` `PyQGIS` `QGIS` `Qt` `Vector Analysis` `Raster Processing` `Copernicus`
 
----
-
 ## 🌲 Forest Cover Change Monitoring — Maâmora Forest
 
 Remote-sensing project for analyzing long-term and recent forest-cover changes in the Maâmora Forest, Morocco.
@@ -158,8 +151,6 @@ Remote-sensing project for analyzing long-term and recent forest-cover changes i
 ### Technologies
 `Digital Earth Africa` `QGIS` `Python` `GeoJSON` `Sentinel-2` `NDVI` `Remote Sensing`
 
----
-
 ## 🏫 School Site Selection & Optimal Road Route — Stowe, Vermont
 
 GIS decision-support project for identifying a suitable location for a new school and determining an optimal access route.
@@ -181,5 +172,5 @@ GIS decision-support project for identifying a suitable location for a new schoo
 ### Project Preview
 
 <p align="center">
-  <img src="images/Poster_nouvelle_école_Douae_AMZIL-1.png" width="85%">
+  <img src="images/Poster-nouvelle-école.png" width="85%">
 </p>
