@@ -1,4 +1,4 @@
-## Hi I'm Douae AMZIL 👋
+# Hi, I'm Douae AMZIL 👋
 
 I am a Geoinformation Engineering student with a background in Computer Engineering.
 
@@ -16,7 +16,9 @@ Currently looking for a **6-month PFE internship starting in 2027**.
 
 📍 Morocco
 
-#  Featured Projects
+---
+
+# 🚀 Featured Projects
 
 ## 🌍 Loss & Damage WebGIS Platform
 
@@ -32,7 +34,6 @@ The platform supports spatial data management, multi-level territorial analysis,
 - Thematic maps and spatial/statistical analysis
 - Event submission and validation workflow
 - Partner and administrator role management
-- Notifications and collaboration workflows
 - Spatial data validation using PostGIS
 - Analysis dashboards, tables and charts
 
@@ -41,55 +42,99 @@ The platform supports spatial data management, multi-level territorial analysis,
 
 ### Project Preview
 
+<p align="center">
+  <img src="images/dashboard.png" width="48%">
+  <img src="images/carte.png" width="48%">
+</p>
+
+<p align="center">
+  <img src="images/filtre.png" width="48%">
+  <img src="images/tableau.png" width="48%">
+</p>
+
+---
+
 ## 🔥 GeoAI Burned Area Detection — Derdara Forest
 
 GeoAI workflow for detecting and mapping burned areas in Derdara Forest, Chefchaouen, using Sentinel-2 imagery and Random Forest classification.
 
 ### Main work
 - Selected pre-fire and post-fire Sentinel-2 imagery
-- Applied cloud, cirrus, shadow and snow masking using the SCL layer
-- Generated median composites for both periods
+- Applied cloud and shadow masking
+- Generated median composites
 - Calculated NDVI, NBR and dNBR
-- Detected burned areas using a dNBR threshold
-- Produced a fire-severity map
-- Created burned / non-burned training polygons
-- Extracted spectral bands and derived indices for model training
-- Trained a Random Forest classifier with 100 trees
-- Split samples into 80% training and 20% testing
-- Evaluated the model using a confusion matrix, accuracy and Kappa
+- Detected burned areas using dNBR thresholding
+- Created training samples
+- Trained a Random Forest classifier
+- Evaluated the classification results
 - Compared dNBR and Random Forest burned-area estimates
 
 ### Results
 - dNBR estimated burned area: **99.31 ha**
 - Random Forest estimated burned area: **105.63 ha**
-- Test accuracy: **100%** on the selected test samples
+- Test accuracy: **100% on the selected test samples**
 
 ### Technologies
 `Google Earth Engine` `Sentinel-2` `Random Forest` `Google Colab` `Remote Sensing` `GeoAI`
+
+### Project Preview
+
+<p align="center">
+  <img src="images/clasification%20random%20forest.png" width="48%">
+  <img src="images/zones%20brûlés%20par%20dnbr.png" width="48%">
+</p>
+
+---
 
 ## 🧩 QGIS Plugin — Urban Planning Decision Support & Remote Sensing
 
 Development of a QGIS plugin combining vector spatial analysis and raster remote-sensing workflows.
 
-### Vector module
+### Vector Module
+
+The vector module provides a decision-support workflow for the analysis of urban-planning derogation projects.
+
 - Project identification and geographic localization
-- Definition of analysis buffer zones
-- Spatial intersection with urban-planning layers
+- Definition of buffer zones
+- Spatial intersection analysis
 - Analysis of public, private, communal and forest domains
 - Detection of existing derogations
-- Generation of a decision-support result
-- Export of results to PDF, CSV and PNG
+- Result generation and export
 
-### Raster module
-- Connection to Copernicus satellite data
-- Search and selection of Sentinel-2 imagery
-- Image download workflow
-- Processing of satellite imagery
-- Calculation of vegetation and water indices such as NDVI, NDWI and EVI
+### Vector Workflow Preview
+
+<p align="center">
+  <img src="images/Part1V.png" width="48%">
+  <img src="images/Part2V.png" width="48%">
+</p>
+
+<p align="center">
+  <img src="images/part3V.png" width="48%">
+  <img src="images/Part4V.png" width="48%">
+</p>
+
+### Raster Module
+
+The raster module integrates remote-sensing functionalities based on Sentinel satellite imagery.
+
+- Satellite image search
+- Copernicus data access
+- Sentinel image download
+- Raster processing
+- Spectral index calculation
+- NDVI, NDWI and EVI analysis
+
+### Raster Workflow Preview
+
+<p align="center">
+  <img src="images/part1Raster.png" width="48%">
+  <img src="images/Part2Raster.png" width="48%">
+</p>
 
 ### Technologies
 `Python` `PyQGIS` `QGIS` `Qt` `Vector Analysis` `Raster Processing` `Copernicus`
 
+---
 
 ## 🌲 Forest Cover Change Monitoring — Maâmora Forest
 
@@ -101,8 +146,7 @@ Remote-sensing project for analyzing long-term and recent forest-cover changes i
 - Used the Global Forest Change dataset
 - Analyzed tree cover, forest loss and forest gain
 - Adapted and executed a Python notebook in Digital Earth Africa
-- Corrected GeoJSON loading and dynamic area selection
-- Generated maps and temporal graphs of forest-cover changes
+- Generated maps and temporal graphs
 
 ### Part 2 — Sentinel-2 & NDVI
 - Compared Sentinel-2 imagery between 2018 and 2024
@@ -110,31 +154,32 @@ Remote-sensing project for analyzing long-term and recent forest-cover changes i
 - Calculated and compared NDVI
 - Generated NDVI difference maps
 - Produced histograms to analyze vegetation changes
-- Interpreted spatial and temporal forest-cover evolution
 
 ### Technologies
 `Digital Earth Africa` `QGIS` `Python` `GeoJSON` `Sentinel-2` `NDVI` `Remote Sensing`
+
+---
 
 ## 🏫 School Site Selection & Optimal Road Route — Stowe, Vermont
 
 GIS decision-support project for identifying a suitable location for a new school and determining an optimal access route.
 
-### Site selection
-- Calculated Euclidean distances to schools and recreational facilities
-- Calculated and reclassified terrain slope
-- Reclassified land-use data
-- Weighted multiple spatial criteria
-- Applied Weighted Overlay analysis
-- Removed isolated pixels using Majority Filter
-- Selected suitable areas larger than 4.0469 ha intersecting roads
-
-### Optimal route analysis
-- Reclassified slope according to construction cost
-- Assigned construction costs to land-use classes
-- Created a combined cost surface
-- Calculated Cost Distance and Backlink rasters
-- Extracted the least-cost path to the selected school site
-- Automated parts of the workflow using ModelBuilder
+### Main work
+- Euclidean distance analysis
+- Terrain slope analysis
+- Land-use reclassification
+- Weighted multi-criteria analysis
+- Suitable-site selection
+- Construction cost surface generation
+- Cost Distance & Backlink analysis
+- Least-cost path extraction
+- ModelBuilder workflow
 
 ### Technologies
 `ArcGIS` `ArcMap` `ModelBuilder` `Multi-Criteria Analysis` `Cost Distance` `Spatial Analysis`
+
+### Project Preview
+
+<p align="center">
+  <img src="images/Poster_nouvelle_école_Douae_AMZIL-1.png" width="85%">
+</p>
